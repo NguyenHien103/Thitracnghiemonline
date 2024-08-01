@@ -1,0 +1,852 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fullname": "Nguyen Thi H",
+      "email": "nguyenthih@gmail.com",
+      "password": "nguyenthih",
+      "token": "gsahjskkcd"
+    },
+    {
+      "id": 2,
+      "fullname": "Tran Van A",
+      "email": "tranvana@gmail.com",
+      "password": "tranvana",
+      "token": "asjklfdssd"
+    },
+    {
+      "id": 3,
+      "fullname": "Le Thi B",
+      "email": "lethib@gmail.com",
+      "password": "lethib",
+      "token": "qweopiqwpe"
+    },
+    {
+      "id": 4,
+      "fullname": "Pham Van C",
+      "email": "phamvanc@gmail.com",
+      "password": "phamvanc",
+      "token": "jklrtyuiop"
+    },
+    {
+      "id": 5,
+      "fullname": "Hoang Thi D",
+      "email": "hoangthid@gmail.com",
+      "password": "hoangthid",
+      "token": "zxcvbnmloi"
+    },
+    {
+      "id": 6,
+      "fullname": "Vo Van E",
+      "email": "vovane@gmail.com",
+      "password": "vovane",
+      "token": "qwertyuiop"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "JAVA"
+    },
+    {
+      "id": 2,
+      "name": "JAVASCRIPT"
+    },
+    {
+      "id": 3,
+      "name": "HTML"
+    },
+    {
+      "id": 4,
+      "name": "CSS"
+    },
+    {
+      "id": 5,
+      "name": "REACT"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "Giá trị mặc định của kiểu dữ liệu boolean trong Java là gì?",
+      "answers": [
+        "true",
+        "false",
+        "0",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Kiểu dữ liệu nào được sử dụng để lưu trữ số nguyên không dấu trong Java?",
+      "answers": [
+        "int",
+        "byte",
+        "short",
+        "long"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Java là ngôn ngữ lập trình thuộc hệ thống nào?",
+      "answers": [
+        "Hệ thống dựa trên mô-đun",
+        "Hệ thống dựa trên đối tượng",
+        "Hệ thống dựa trên kịch bản",
+        "Hệ thống dựa trên hàm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Trong Java, từ khóa nào được sử dụng để khai báo một phương thức không trả về giá trị?",
+      "answers": [
+        "void",
+        "null",
+        "empty",
+        "none"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Kiểu dữ liệu nào được sử dụng để lưu trữ số thực trong Java?",
+      "answers": [
+        "float",
+        "double",
+        "decimal",
+        "real"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Trong Java, từ khóa nào được sử dụng để tạo một đối tượng mới?",
+      "answers": [
+        "instance",
+        "create",
+        "new",
+        "object"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Trong Java, từ khóa nào được sử dụng để kế thừa một lớp?",
+      "answers": [
+        "extends",
+        "inherits",
+        "implements",
+        "derives"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Kiểu dữ liệu nào được sử dụng để lưu trữ một ký tự duy nhất trong Java?",
+      "answers": [
+        "letter",
+        "string",
+        "character",
+        "char"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Trong Java, từ khóa nào được sử dụng để thoát khỏi một vòng lặp?",
+      "answers": [
+        "continue",
+        "exit",
+        "return",
+        "break"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Kiểu dữ liệu nào được sử dụng để lưu trữ chuỗi ký tự trong Java?",
+      "answers": [
+        "text",
+        "char",
+        "string",
+        "varchar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "topicId": 2,
+      "question": "Kiểu dữ liệu nào trong JavaScript dùng để lưu trữ các giá trị số có dấu thập phân?",
+      "answers": [
+        "int",
+        "float",
+        "double",
+        "number"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "topicId": 2,
+      "question": "Từ khóa nào dùng để khai báo biến trong JavaScript?",
+      "answers": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "topicId": 2,
+      "question": "Phương thức nào được sử dụng để chuyển đổi một chuỗi thành một số nguyên trong JavaScript?",
+      "answers": [
+        "parseInt()",
+        "parseFloat()",
+        "toString()",
+        "toFixed()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "topicId": 2,
+      "question": "Trong JavaScript, mảng (array) là một loại dữ liệu để lưu trữ?",
+      "answers": [
+        "Một giá trị duy nhất",
+        "Nhiều giá trị có cùng kiểu dữ liệu",
+        "Một chuỗi ký tự",
+        "Một đối tượng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "topicId": 2,
+      "question": "Trong JavaScript, đối tượng (object) được khai báo bằng từ khóa nào?",
+      "answers": [
+        "object",
+        "json",
+        "class",
+        "var"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "topicId": 2,
+      "question": "Phương thức nào được sử dụng để gọi một hàm sau một khoảng thời gian nhất định?",
+      "answers": [
+        "setTimeout()",
+        "setInterval()",
+        "setTime()",
+        "startTimer()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "topicId": 2,
+      "question": "Cú pháp nào dùng để tạo một hàm (function) trong JavaScript?",
+      "answers": [
+        "function myFunction() {}",
+        "myFunction() {}",
+        "new Function() {}",
+        "createFunction() {}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "topicId": 2,
+      "question": "Trong JavaScript, câu lệnh nào được sử dụng để kết thúc một khối lệnh?",
+      "answers": [
+        "dot (.)",
+        "semicolon (;)",
+        "colon (:)",
+        "comma (,)"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "topicId": 2,
+      "question": "Trong JavaScript, đâu là phép toán để so sánh bằng giá trị và kiểu dữ liệu?",
+      "answers": [
+        "==",
+        "===",
+        "=",
+        "!="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "topicId": 2,
+      "question": "Phương thức nào được sử dụng để lấy độ dài của một chuỗi trong JavaScript?",
+      "answers": [
+        "length()",
+        "size()",
+        "count()",
+        "charAt()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "topicId": 3,
+      "question": "HTML viết tắt của từ gì?",
+      "answers": [
+        "Hyper Text Markup Language",
+        "Highly Typed Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlink Text Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "topicId": 3,
+      "question": "Đâu là phần tử chính để tạo tiêu đề trang trong HTML?",
+      "answers": [
+        "<header>",
+        "<title>",
+        "<h1>",
+        "<head>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "topicId": 3,
+      "question": "Đâu là phần tử chính để tạo một đoạn văn bản trong HTML?",
+      "answers": [
+        "<paragraph>",
+        "<text>",
+        "<p>",
+        "<div>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "topicId": 3,
+      "question": "Để chèn một hình ảnh vào trang web, ta sử dụng phần tử nào?",
+      "answers": [
+        "<img>",
+        "<picture>",
+        "<image>",
+        "<src>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "topicId": 3,
+      "question": "Đâu là phần tử chính để tạo danh sách có thứ tự trong HTML?",
+      "answers": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<dl>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "topicId": 3,
+      "question": "Phần tử nào được sử dụng để tạo liên kết trong HTML?",
+      "answers": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "topicId": 3,
+      "question": "Để tạo một ô nhập liệu trong HTML, ta sử dụng phần tử nào?",
+      "answers": [
+        "<input>",
+        "<form>",
+        "<textinput>",
+        "<textbox>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "topicId": 3,
+      "question": "Phần tử nào được sử dụng để tạo một bảng trong HTML?",
+      "answers": [
+        "<table>",
+        "<tabular>",
+        "<tr>",
+        "<td>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "topicId": 3,
+      "question": "Để tạo một đường kẻ ngang trong HTML, ta sử dụng phần tử nào?",
+      "answers": [
+        "<hr>",
+        "<line>",
+        "<break>",
+        "<divider>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "topicId": 3,
+      "question": "Để tạo một biểu đồ cột trong HTML, ta sử dụng phần tử nào?",
+      "answers": [
+        "<chart>",
+        "<graph>",
+        "<column-chart>",
+        "<canvas>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 31,
+      "topicId": 4,
+      "question": "CSS viết tắt của từ gì?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Coded Style Sheets",
+        "Cascaded Style Sheets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "topicId": 4,
+      "question": "Đâu là phần tử chính để chọn một phần tử trong CSS?",
+      "answers": [
+        "Class",
+        "ID",
+        "Tag",
+        "Selector"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 33,
+      "topicId": 4,
+      "question": "Để chọn tất cả các phần tử trong một trang HTML, ta sử dụng phần tử nào trong CSS?",
+      "answers": [
+        "all",
+        "body",
+        "element",
+        "universal"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 34,
+      "topicId": 4,
+      "question": "Để chọn phần tử có class là 'highlight', ta sử dụng cú pháp nào trong CSS?",
+      "answers": [
+        ".highlight",
+        "#highlight",
+        "highlight",
+        "*highlight"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "topicId": 4,
+      "question": "Để chọn phần tử có ID là 'logo', ta sử dụng cú pháp nào trong CSS?",
+      "answers": [
+        ".logo",
+        "#logo",
+        "logo",
+        "*logo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "topicId": 4,
+      "question": "Đâu là phần tử chính để tạo một khối chứa các phần tử trong CSS?",
+      "answers": [
+        "<container>",
+        "<div>",
+        "<section>",
+        "<box>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "topicId": 4,
+      "question": "Để thay đổi màu nền của một phần tử, ta sử dụng thuộc tính nào trong CSS?",
+      "answers": [
+        "background-image",
+        "color",
+        "background-color",
+        "text-color"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 38,
+      "topicId": 4,
+      "question": "Thuộc tính nào được sử dụng để thay đổi kích thước của một phần tử trong CSS?",
+      "answers": [
+        "width",
+        "size",
+        "height",
+        "scale"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "topicId": 4,
+      "question": "Để thay đổi kiểu chữ của một phần tử, ta sử dụng thuộc tính nào trong CSS?",
+      "answers": [
+        "font-family",
+        "text-style",
+        "font-style",
+        "text-font"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "topicId": 4,
+      "question": "Để canh lề trái của một phần tử, ta sử dụng thuộc tính nào trong CSS?",
+      "answers": [
+        "padding-left",
+        "margin-left",
+        "text-align",
+        "left-align"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "topicId": 5,
+      "question": "React là gì?",
+      "answers": [
+        "Một ngôn ngữ lập trình",
+        "Một thư viện JavaScript",
+        "Một framework",
+        "Một hệ điều hành"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "topicId": 5,
+      "question": "React được phát triển bởi công ty nào?",
+      "answers": [
+        "Apple",
+        "Microsoft",
+        "Facebook",
+        "Google"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 43,
+      "topicId": 5,
+      "question": "React sử dụng ngôn ngữ lập trình nào?",
+      "answers": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "topicId": 5,
+      "question": "Phương pháp nào được sử dụng để tạo giao diện trong React?",
+      "answers": [
+        "DOM Manipulation",
+        "Virtual DOM",
+        "HTML Templates",
+        "Canvas Drawing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "topicId": 5,
+      "question": "React được sử dụng chủ yếu cho loại ứng dụng nào?",
+      "answers": [
+        "Ứng dụng di động",
+        "Ứng dụng web",
+        "Ứng dụng máy tính",
+        "Ứng dụng trò chơi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "topicId": 5,
+      "question": "Đâu là phương thức chính trong vòng đời của một component React?",
+      "answers": [
+        "render()",
+        "componentDidMount()",
+        "setState()",
+        "constructor()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "topicId": 5,
+      "question": "React có hỗ trợ routing không?",
+      "answers": [
+        "Có",
+        "Không"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "topicId": 5,
+      "question": "Thư viện nào được sử dụng để quản lý state trong React?",
+      "answers": [
+        "Redux",
+        "React Router",
+        "Axios",
+        "jQuery"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "topicId": 5,
+      "question": "React có hỗ trợ viết CSS trong file .js không?",
+      "answers": [
+        "Có",
+        "Không"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "topicId": 5,
+      "question": "React Native được sử dụng để phát triển ứng dụng di động cho hệ điều hành nào?",
+      "answers": [
+        "iOS",
+        "Android",
+        "Cả iOS và Android",
+        "Windows Phone"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "answers": [
+    {
+      "id": "b026",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 1
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "817f",
+      "userId": 1,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 31,
+          "answer": 3
+        },
+        {
+          "questionId": 32,
+          "answer": 0
+        },
+        {
+          "questionId": 33,
+          "answer": 1
+        },
+        {
+          "questionId": 34,
+          "answer": 0
+        },
+        {
+          "questionId": 35,
+          "answer": 1
+        },
+        {
+          "questionId": 36,
+          "answer": 0
+        },
+        {
+          "questionId": 37,
+          "answer": 2
+        },
+        {
+          "questionId": 38,
+          "answer": 2
+        },
+        {
+          "questionId": 39,
+          "answer": 2
+        },
+        {
+          "questionId": 40,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "db9e",
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 1
+        },
+        {
+          "questionId": 23,
+          "answer": 2
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        },
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "0397",
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 1
+        },
+        {
+          "questionId": 23,
+          "answer": 2
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        },
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 30,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
